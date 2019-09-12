@@ -1,0 +1,8 @@
+﻿<Window x:Class="AppHCI2.WelcomeScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WelcomeScreen" Icon="/AppHCI2;component/a_red.ico" Height="225" Width="350" WindowStyle="None" WindowStartupLocation="CenterScreen" Loaded="MemuatJendela" Topmost="True" ResizeMode="NoResize">
+    <Grid>
+        <Image Name="welcomeScr" Source="/AppHCI2;component/WelcomeScreen.png"/>
+    </Grid>
+</Window>

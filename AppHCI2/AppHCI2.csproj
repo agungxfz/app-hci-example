@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0F0DCD0-9C19-45EA-9EE0-33557AC5E826}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppHCI2</RootNamespace>
+    <AssemblyName>AppHCI2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>a_red.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ImageLoad.xaml.cs">
+      <DependentUpon>ImageLoad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeScreen.xaml.cs">
+      <DependentUpon>WelcomeScreen.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ImageLoad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="WelcomeScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="WelcomeScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="quit.png" />
+    <Resource Include="imgobj\ayam.jpg" />
+    <Resource Include="imgobj\badak.jpg" />
+    <Resource Include="imgobj\cicak.jpg" />
+    <Resource Include="imgobj\domba.jpg" />
+    <Resource Include="imgobj\elang.jpg" />
+    <Resource Include="imgobj\flamingo.jpg" />
+    <Resource Include="imgobj\gajah.jpg" />
+    <Resource Include="imgobj\harimau.jpg" />
+    <Resource Include="imgobj\ikan.jpg" />
+    <Resource Include="imgobj\jerapah.jpg" />
+    <Resource Include="imgobj\kuda.jpg" />
+    <Resource Include="imgobj\laba-laba.jpg" />
+    <Resource Include="imgobj\monyet.jpg" />
+    <Resource Include="imgobj\nyamuk.jpg" />
+    <Resource Include="imgobj\orang-utan.jpg" />
+    <Resource Include="imgobj\panda.JPG" />
+    <Resource Include="imgobj\quetzal.jpg" />
+    <Resource Include="imgobj\rusa.jpg" />
+    <Resource Include="imgobj\semut.jpeg" />
+    <Resource Include="imgobj\trenggiling.jpg" />
+    <Resource Include="imgobj\ular.JPG" />
+    <Resource Include="imgobj\vulture.jpg" />
+    <Resource Include="imgobj\walrus.jpg" />
+    <Resource Include="imgobj\x-ray_tetra.jpg" />
+    <Resource Include="imgobj\yuyu.jpg" />
+    <Resource Include="imgobj\zebra.jpg" />
+    <Resource Include="a_red.ico" />
+    <Resource Include="back.png" />
+    <Resource Include="imgres\a.png" />
+    <Resource Include="imgres\b.png" />
+    <Resource Include="imgres\c.png" />
+    <Resource Include="imgres\d.png" />
+    <Resource Include="imgres\e.png" />
+    <Resource Include="imgres\f.png" />
+    <Resource Include="imgres\g.png" />
+    <Resource Include="imgres\h.png" />
+    <Resource Include="imgres\i.png" />
+    <Resource Include="imgres\j.png" />
+    <Resource Include="imgres\k.png" />
+    <Resource Include="imgres\l.png" />
+    <Resource Include="imgres\m.png" />
+    <Resource Include="imgres\n.png" />
+    <Resource Include="imgres\o.png" />
+    <Resource Include="imgres\p.png" />
+    <Resource Include="imgres\q.png" />
+    <Resource Include="imgres\r.png" />
+    <Resource Include="imgres\s.png" />
+    <Resource Include="imgres\t.png" />
+    <Resource Include="imgres\u.png" />
+    <Resource Include="imgres\v.png" />
+    <Resource Include="imgres\w.png" />
+    <Resource Include="imgres\x.png" />
+    <Resource Include="imgres\y.png" />
+    <Resource Include="imgres\z.png" />
+    <Resource Include="imgobj\anjing.jpg" />
+    <Resource Include="imgobj\aligator.jpg" />
+    <Resource Include="imgobj\bekantan.jpg" />
+    <Resource Include="imgobj\babi.jpg" />
+    <Resource Include="imgobj\capung.jpg" />
+    <Resource Include="imgobj\cacing.jpg" />
+    <Resource Include="imgobj\dara.jpg" />
+    <Resource Include="imgobj\duyung.jpg" />
+    <Resource Include="imgobj\gorila.jpg" />
+    <Resource Include="imgobj\gurame.jpg" />
+    <Content Include="musik.mp3" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

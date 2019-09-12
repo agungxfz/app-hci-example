@@ -1,0 +1,202 @@
+﻿<Window x:Class="AppHCI2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mari Belajar ABC" Icon="/AppHCI2;component/a_red.ico" Height="768" Width="1024" WindowStartupLocation="CenterScreen" Loaded="MainMusik" WindowState="Maximized" WindowStyle="None">
+    <Grid>
+        <MediaElement Name="MediaX" LoadedBehavior="Manual" MediaEnded="MainLagi" />
+        <Image Name="background" Source="/AppHCI2;component/back.png" Stretch="Fill"/>
+        <Button Height="100" Width="100" Click="A_Klik" Margin="12,200,890,429">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/a.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="B_Klik" Margin="134,184,768,445">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/b.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="C_Klik" Margin="240,200,662,429">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/c.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="D_Klik" Margin="368,184,534,445">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/d.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="E_Klik" Margin="495,184,407,445">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/e.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="F_Klik" Margin="622,200,0,429" HorizontalAlignment="Left">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/f.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="G_Klik" Margin="728,184,174,445">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/g.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="H_Klik" Margin="850,200,52,428">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/h.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="I_Klik" Margin="12,355,890,274">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/i.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="J_Klik" Margin="97,332,805,296">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/j.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+
+        <Button Height="101" Width="100" Click="K_Klik" Margin="203,332,699,296">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/k.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="L_Klik" Margin="309,308,593,320">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/l.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="M_Klik" Margin="415,338,487,290">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/m.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="N_Klik" Margin="521,308,381,322">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/n.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="O_Klik" Margin="652,338,250,290">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/o.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="P_Klik" Margin="758,307,144,321">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/p.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="Q_Klik" Margin="864,339,38,290">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/q.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="R_Klik" Margin="12,494,890,136">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/r.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>        
+        <Button Height="100" Width="100" Click="S_Klik" Margin="134,472,768,156">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/s.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="T_Klik" Margin="240,507,662,121">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/t.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="U_Klik" Margin="346,457,556,171">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/u.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="V_Klik" Margin="452,494,450,136">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/v.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="W_Klik" Margin="558,472,344,156">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/w.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="101" Width="100" Click="X_Klik" Margin="674,457,228,171">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/x.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="Y_Klik" Margin="785,494,117,136">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/y.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Height="100" Width="100" Click="Z_Klik" Margin="896,472,6,158">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/imgres/z.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+        <Button Margin="882,609,12,12" Height="108" Width="108" Click="QuitBTN_klik">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/quit.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Label Content="Klik pada huruf yang diinginkan" FontSize="30" FontFamily="Comic Sans MS" Height="55" HorizontalAlignment="Left" Margin="309,40,0,0" Name="label1" VerticalAlignment="Top" Width="438" />
+    </Grid>
+</Window>

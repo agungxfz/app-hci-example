@@ -1,0 +1,18 @@
+﻿<Window x:Class="AppHCI2.ImageLoad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gambar dan Nama Hewan" Icon="/AppHCI2;component/a_red.ico" Height="640" Width="680" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" WindowStyle="None">
+    <Grid>
+        <Image Height="360" HorizontalAlignment="Left" Margin="89,12,0,0" Name="TampilGambar" Stretch="Fill" VerticalAlignment="Top" Width="480" />
+        <Label FontSize="68" FontWeight="Bold" Height="91" HorizontalAlignment="Left" Margin="12,378,0,0" Name="NamaHewan" VerticalAlignment="Top" Width="76" />
+        <Label FontSize="60" Height="91" HorizontalAlignment="Left" Margin="64,386,0,0" Name="NamaBelakang" VerticalAlignment="Top" Width="435" />
+        <Button Margin="558,386,12,127" Height="88" Width="88" Click="keluar_wnd">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/AppHCI2;component/quit.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <TextBox Height="89" FontSize="20" HorizontalAlignment="Left" Margin="12,500,0,0" Name="lblExplain" VerticalAlignment="Top" Width="634" TextWrapping="Wrap" />
+    </Grid>
+</Window>
